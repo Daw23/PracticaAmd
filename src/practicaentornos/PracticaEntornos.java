@@ -5,6 +5,9 @@
  */
 package practicaentornos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class PracticaEntornos {
 
@@ -15,6 +18,16 @@ public class PracticaEntornos {
     for (int i = 0; i < 10; i++) {
       System.out.println(i);
     }
+    
+    List<String> frutas = new ArrayList<>();
+    frutas.add("patata");
+    frutas.add("pepinillos");
+    frutas.add("tomates");
+    
+    for (String s : frutas) {
+      System.out.println(s);
+    }
+    
     
   }
   
